@@ -748,6 +748,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: fit-content;
 }
 
 .search-item:hover {
@@ -802,6 +803,7 @@ main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
+  place-items: center;
 }
 /* Tablets */
 @media (max-width: 1024px) {
