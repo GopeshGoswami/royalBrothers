@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.0/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div id="topNav">
+        <img src="/public/phone.svg" alt="phone" />
+        <div>
+          <p>+917795687594 / +919019595595 | <span id="chat">Chat Now</span></p>
+        </div>
+      </div>
+      <div id="bottomNav">
+        <!-- Hamburger Menu -->
+        <div id="hamContainer">
+          <div id="hamburger">
+            <img src="/public/hamburger.svg" alt="menu" />
+          </div>
+          <img src="/public/logoMob.svg" alt="Logo" class="logoMob" />
+        </div>
+        <img src="/public/logo.svg" alt="Logo" class="logo" />
+
+        <!-- Nav Items (Hidden on Mobile) -->
+        <div id="nav-mid">
+          <div id="nav-mid-subscription">
+            <img src="/public/subscription.svg" alt="Subscription" />
+          </div>
+          <p class="nav-item extra-padding">Tariff</p>
+          <div class="nav-item small-padding">
+            <p>What's New</p>
+            <img src="/public/downArrow.svg" alt="downArrow" />
+            <div class="dropdown">
+              <p>Sort by RB<span>New</span></p>
+              <p>Adventures by RB</p>
+              <p>Inter-city travel</p>
+            </div>
+          </div>
+          <p class="nav-item extra-padding">Offers</p>
+          <div class="nav-item small-padding">
+            <p>Partner with us</p>
+            <img src="/public/downArrow.svg" alt="downArrow" />
+            <div class="dropdown">
+              <p>Earn with us</p>
+              <p>Own a franchise</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Location & Login Section -->
+        <div id="modal-parent">
+          <div id="location">
+            <img src="/public/location.svg" alt="location" />
+            <p id="cityName">Bangalore</p>
+            <img src="/public/downArrow.svg" alt="downArrow" />
+          </div>
+          <div id="signup-divider"></div>
+          <div id="navLogin">
+            <a href="/login">Login</a>
+            <a href="/sign-up">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+      <div id="sidebar-content">
+        <button id="closeSidebar">&times;</button>
+        <div id="sidebar-links">
+          <div id="sidebar-login">
+            <a href="/login">Login</a>
+            <div></div>
+            <a href="/sign-up">Sign Up</a>
+          </div>
+          <p>Tariff</p>
+          <p>Sort by RB <span>New</span></p>
+          <p>Adventures by RB <span>New</span></p>
+          <p>Offers</p>
+          <p>Royal BrothersX</p>
+          <p>Partner With Us</p>
+          <p>Blog</p>
+          <p>Inter-City Travel</p>
+          <p>About Us</p>
+          <p>Terms & Conditions</p>
+          <p>Privacy Policy</p>
+          <p>FAQ</p>
+          <p>Reach Us</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+
+    <!-- Navbar End -->
+
+    <main>
+      <!-- Hero -->
+      <section id="hero">
+        <img src="/public/heroBG1.webp" alt="heroBG" />
+
+        <div>
+          <h3>Search your next ride</h3>
+          <div class="rideSelection">
+            <p>Pickup</p>
+            <div>
+              <input
+                type="text"
+                id="customDate"
+                placeholder="Date"
+                onclick="this.type='date'"
+                onblur="this.type='text'"
+              />
+
+              <input type="time" placeholder="Time" class="" />
+            </div>
+          </div>
+
+          <div class="rideSelection">
+            <p>Dropoff</p>
+            <div>
+              <input
+                type="text"
+                id="customDate"
+                placeholder="Date"
+                onclick="this.type='date'"
+                onblur="this.type='text'"
+              />
+              <input type="time" placeholder="Time" />
+            </div>
+          </div>
+          <button class="btnLarge">Search</button>
+        </div>
+      </section>
+      <!-- Hero End -->
+
+      <!-- Services -->
+      <section id="services">
+        <div>
+          <h2>Services we Offer</h2>
+          <div class="headerLine"></div>
+        </div>
+
+        <div>
+          <img src="/public/services1.webp" alt="services" />
+          <img src="/public/services2.webp" alt="services" />
+        </div>
+      </section>
+      <!-- Services End -->
+
+      <!-- Save Big -->
+      <img
+        src="/public/saveBig.webp"
+        alt="saveBigDesktop"
+        id="saveBigDesktop"
+      />
+      <img src="/public/saveBigMob.webp" alt="saveBigMob" id="saveBigMobile" />
+      <!-- Save Big End -->
+
+      <!-- Impact -->
+      <section id="impact">
+        <h2 class="alternateHeading">Our impact in <span>numbers</span></h2>
+
+        <img src="/public/impact.webp" alt="impact" />
+      </section>
+      <!-- Impact End -->
+
+      <!-- Testimonial -->
+      <section id="testimonialSection">
+        <h2 class="alternateHeading">
+          What our users have to <span>say</span>
+        </h2>
+
+        <div class="swiper testimonialSwiper">
+          <div class="swiper-wrapper"></div>
+
+          <!-- Navigation buttons -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+      <!-- Testimonial End -->
+
+      <!-- Featured -->
+      <section id="featured">
+        <div class="featuredHeading">
+          <h2 class="">FEATURED IN</h2>
+          <div class="headerLine headerSmaller"></div>
+        </div>
+
+        <div class="swiper imageSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/public/featured/1.webp" alt="Image 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/public/featured/2.webp" alt="Image 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/public/featured/3.webp" alt="Image 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/public/featured/4.webp" alt="Image 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/public/featured/1.webp" alt="Image 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/public/featured/2.webp" alt="Image 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/public/featured/3.webp" alt="Image 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/public/featured/4.webp" alt="Image 1" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Featured End -->
+
+      <!-- Footer -->
+      <footer>
+        <div>
+          <div id="footerContainer">
+            <div class="footerItem">
+              <div>
+                <h4>Royal Brothers</h4>
+                <div></div>
+              </div>
+
+              <div>
+                <p>support@royalbrothers.com</p>
+                <p>+917795687594/+919019595595</p>
+              </div>
+            </div>
+            <div class="footerItem">
+              <div>
+                <h4>Company</h4>
+                <div></div>
+              </div>
+
+              <div>
+                <p>About Us</p>
+                <p>Blog</p>
+                <p>Careers</p>
+                <p>Contact Us</p>
+              </div>
+            </div>
+            <div class="footerItem">
+              <div>
+                <h4>Policies</h4>
+                <div></div>
+              </div>
+
+              <div>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+              </div>
+            </div>
+            <div class="footerItem">
+              <div>
+                <h4>Quick Links</h4>
+                <div></div>
+              </div>
+
+              <div>
+                <p>Tariff</p>
+                <p>Offers</p>
+                <p>Riding Gears</p>
+                <p>Own a franchise</p>
+                <p>Earn with us</p>
+              </div>
+            </div>
+            <div class="footerIcons">
+              <div>
+                <h4>Follow Us</h4>
+                <div></div>
+              </div>
+
+              <div id="socialLogo">
+                <img src="/public/footer/instagram.svg" alt="" />
+                <img src="/public/footer/facebook.svg" alt="" />
+                <img src="/public/footer/x.svg" alt="" />
+                <img src="/public/footer/linkedin.svg" alt="" />
+                <img src="/public/footer/youtube.svg" alt="" />
+              </div>
+            </div>
+            <div class="footerIcons">
+              <div>
+                <h4>Download Our App</h4>
+                <div></div>
+              </div>
+
+              <div id="appIcons">
+                <img src="/public/footer/appleDownload.webp" alt="" />
+                <img src="/public/footer/googleDownload.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
+    </main>
+
+    <!-- Modal Structure -->
+    <div id="locationModal" class="hidden">
+      <div class="modal-content">
+        <div id="modalHeader">
+          <div id="modalLogo">
+            <div></div>
+            <div class="modalIcons">
+              <img src="/public/logo.svg" alt="Logo" />
+              <div id="logoDivider"></div>
+              <p>Bike Rentals</p>
+            </div>
+            <button id="closeModal">&times;</button>
+          </div>
+          <div id="modalSearch" class="modal-search">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Select or type city to select"
+              class="search-input"
+            />
+            <img
+              src="/public/searchIcon.svg"
+              alt="Search"
+              class="search-icon"
+            />
+            <button id="clearSearch" class="clear-button">Clear</button>
+          </div>
+        </div>
+        <div id="searchResults"></div>
+      </div>
+    </div>
+    <!-- Modal End -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.0/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
