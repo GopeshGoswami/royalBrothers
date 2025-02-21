@@ -3,7 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Royal Brothers - Bike Rentals</title>
+    <link rel="icon" type="image/x-icon" href="/public/logoMob.svg" />
+    <meta
+      name="description"
+      content="Rent bikes from Royal Brothers. Affordable and convenient bike rentals for your next adventure."
+    />
+    <meta
+      name="keywords"
+      content="bike rentals, affordable bike rentals, convenient bike rentals, Royal Brothers"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.0/swiper-bundle.min.css"
@@ -14,7 +23,7 @@
     <!-- Navbar -->
     <nav>
       <div id="topNav">
-        <img src="/public/phone.svg" alt="phone" />
+        <img src="/public/phone.svg" alt="phone icon" />
         <div>
           <p>+917795687594 / +919019595595 | <span id="chat">Chat Now</span></p>
         </div>
@@ -23,21 +32,25 @@
         <!-- Hamburger Menu -->
         <div id="hamContainer">
           <div id="hamburger">
-            <img src="/public/hamburger.svg" alt="menu" />
+            <img src="/public/hamburger.svg" alt="menu icon" />
           </div>
-          <img src="/public/logoMob.svg" alt="Logo" class="logoMob" />
+          <img
+            src="/public/logoMob.svg"
+            alt="Royal Brothers Logo"
+            class="logoMob"
+          />
         </div>
-        <img src="/public/logo.svg" alt="Logo" class="logo" />
+        <img src="/public/logo.svg" alt="Royal Brothers Logo" class="logo" />
 
         <!-- Nav Items (Hidden on Mobile) -->
         <div id="nav-mid">
           <div id="nav-mid-subscription">
-            <img src="/public/subscription.svg" alt="Subscription" />
+            <img src="/public/subscription.svg" alt="Subscription icon" />
           </div>
           <p class="nav-item extra-padding">Tariff</p>
           <div class="nav-item small-padding">
             <p>What's New</p>
-            <img src="/public/downArrow.svg" alt="downArrow" />
+            <img src="/public/downArrow.svg" alt="down arrow icon" />
             <div class="dropdown">
               <p>Sort by RB<span>New</span></p>
               <p>Adventures by RB</p>
@@ -47,7 +60,7 @@
           <p class="nav-item extra-padding">Offers</p>
           <div class="nav-item small-padding">
             <p>Partner with us</p>
-            <img src="/public/downArrow.svg" alt="downArrow" />
+            <img src="/public/downArrow.svg" alt="down arrow icon" />
             <div class="dropdown">
               <p>Earn with us</p>
               <p>Own a franchise</p>
@@ -58,9 +71,9 @@
         <!-- Location & Login Section -->
         <div id="modal-parent">
           <div id="location">
-            <img src="/public/location.svg" alt="location" />
+            <img src="/public/location.svg" alt="location icon" />
             <p id="cityName">Bangalore</p>
-            <img src="/public/downArrow.svg" alt="downArrow" />
+            <img src="/public/downArrow.svg" alt="down arrow icon" />
           </div>
           <div id="signup-divider"></div>
           <div id="navLogin">
@@ -73,7 +86,7 @@
     <!-- Navbar End -->
 
     <!-- Sidebar -->
-    <div id="sidebar">
+    <aside id="sidebar">
       <div id="sidebar-content">
         <button id="closeSidebar">&times;</button>
         <div id="sidebar-links">
@@ -97,19 +110,17 @@
           <p>Reach Us</p>
         </div>
       </div>
-    </div>
+    </aside>
 
     <div id="overlay"></div>
-
-    <!-- Navbar End -->
 
     <main>
       <!-- Hero -->
       <section id="hero">
-        <img src="/public/heroBG1.webp" alt="heroBG" />
+        <img src="/public/heroBG1.webp" alt="Hero Background" />
 
         <div>
-          <h3>Search your next ride</h3>
+          <h1>Search your next ride</h1>
           <div class="rideSelection">
             <p>Pickup</p>
             <div>
@@ -120,8 +131,7 @@
                 onclick="this.type='date'"
                 onblur="this.type='text'"
               />
-
-              <input type="time" placeholder="Time" class="" />
+              <input type="time" placeholder="Time" />
             </div>
           </div>
 
@@ -151,8 +161,8 @@
         </div>
 
         <div>
-          <img src="/public/services1.webp" alt="services" />
-          <img src="/public/services2.webp" alt="services" />
+          <img src="/public/services1.webp" alt="Service 1" />
+          <img src="/public/services2.webp" alt="Service 2" />
         </div>
       </section>
       <!-- Services End -->
@@ -160,17 +170,21 @@
       <!-- Save Big -->
       <img
         src="/public/saveBig.webp"
-        alt="saveBigDesktop"
+        alt="Save Big Desktop"
         id="saveBigDesktop"
       />
-      <img src="/public/saveBigMob.webp" alt="saveBigMob" id="saveBigMobile" />
+      <img
+        src="/public/saveBigMob.webp"
+        alt="Save Big Mobile"
+        id="saveBigMobile"
+      />
       <!-- Save Big End -->
 
       <!-- Impact -->
       <section id="impact">
         <h2 class="alternateHeading">Our impact in <span>numbers</span></h2>
 
-        <img src="/public/impact.webp" alt="impact" />
+        <img src="/public/impact.webp" alt="Impact" />
       </section>
       <!-- Impact End -->
 
@@ -194,34 +208,34 @@
       <section id="featured">
         <div class="featuredHeading">
           <h2 class="featureHeader">FEATURED IN</h2>
-          <div class="headerLine headerSmaller"></div>
+          <div class="headerLine headerSmaller gap"></div>
         </div>
 
         <div class="swiper imageSwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="/public/featured/1.webp" alt="Image 1" />
+              <img src="/public/featured/1.webp" alt="Featured Image 1" />
             </div>
             <div class="swiper-slide">
-              <img src="/public/featured/2.webp" alt="Image 1" />
+              <img src="/public/featured/2.webp" alt="Featured Image 2" />
             </div>
             <div class="swiper-slide">
-              <img src="/public/featured/3.webp" alt="Image 1" />
+              <img src="/public/featured/3.webp" alt="Featured Image 3" />
             </div>
             <div class="swiper-slide">
-              <img src="/public/featured/4.webp" alt="Image 1" />
+              <img src="/public/featured/4.webp" alt="Featured Image 4" />
             </div>
             <div class="swiper-slide">
-              <img src="/public/featured/1.webp" alt="Image 1" />
+              <img src="/public/featured/1.webp" alt="Featured Image 1" />
             </div>
             <div class="swiper-slide">
-              <img src="/public/featured/2.webp" alt="Image 1" />
+              <img src="/public/featured/2.webp" alt="Featured Image 2" />
             </div>
             <div class="swiper-slide">
-              <img src="/public/featured/3.webp" alt="Image 1" />
+              <img src="/public/featured/3.webp" alt="Featured Image 3" />
             </div>
             <div class="swiper-slide">
-              <img src="/public/featured/4.webp" alt="Image 1" />
+              <img src="/public/featured/4.webp" alt="Featured Image 4" />
             </div>
           </div>
         </div>
@@ -288,11 +302,11 @@
               </div>
 
               <div id="socialLogo">
-                <img src="/public/footer/instagram.svg" alt="" />
-                <img src="/public/footer/facebook.svg" alt="" />
-                <img src="/public/footer/x.svg" alt="" />
-                <img src="/public/footer/linkedin.svg" alt="" />
-                <img src="/public/footer/youtube.svg" alt="" />
+                <img src="/public/footer/instagram.svg" alt="Instagram" />
+                <img src="/public/footer/facebook.svg" alt="Facebook" />
+                <img src="/public/footer/x.svg" alt="Twitter" />
+                <img src="/public/footer/linkedin.svg" alt="LinkedIn" />
+                <img src="/public/footer/youtube.svg" alt="YouTube" />
               </div>
             </div>
             <div class="footerIcons">
@@ -302,8 +316,14 @@
               </div>
 
               <div id="appIcons">
-                <img src="/public/footer/appleDownload.webp" alt="" />
-                <img src="/public/footer/googleDownload.webp" alt="" />
+                <img
+                  src="/public/footer/appleDownload.webp"
+                  alt="Download on the App Store"
+                />
+                <img
+                  src="/public/footer/googleDownload.webp"
+                  alt="Get it on Google Play"
+                />
               </div>
             </div>
           </div>
@@ -319,7 +339,7 @@
           <div id="modalLogo">
             <div></div>
             <div class="modalIcons">
-              <img src="/public/logo.svg" alt="Logo" />
+              <img src="/public/logo.svg" alt="Royal Brothers Logo" />
               <div id="logoDivider"></div>
               <p>Bike Rentals</p>
             </div>
@@ -334,7 +354,7 @@
             />
             <img
               src="/public/searchIcon.svg"
-              alt="Search"
+              alt="Search icon"
               class="search-icon"
             />
             <button id="clearSearch" class="clear-button">Clear</button>
