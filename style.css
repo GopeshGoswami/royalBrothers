@@ -572,6 +572,20 @@ main {
   line-height: 2.25rem;
   font-weight: 600;
 }
+@media screen and (max-width: 768px) {
+  .alternateHeading {
+    font-size: 1.25rem;
+  }
+  .featureHeader {
+    font-size: 1.25rem !important;
+  }
+  #services div:first-child h2 {
+    font-size: 1.25rem !important;
+  }
+  .headerLine {
+    max-width: 5rem !important;
+  }
+}
 .alternateHeading span {
   color: #fed250;
 }
